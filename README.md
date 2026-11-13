@@ -19,7 +19,7 @@ against C++ implemented js Map.
 I'm sure I can even find better mixer or implement map even better.
 
 ## Notes
-I was researching permutation in both mathematics and programming in the context of
-pseudo random number generators (PRNG).
-I was wondering could permutation be used to create mapping.
+I was researching permutation in both mathematics and programming in the context of\
+pseudo random number generators (PRNG).\
+I was wondering could permutation be used to create mapping.\
 I'm sure this approach is pretty unusual but can be handy in some specific situations.
