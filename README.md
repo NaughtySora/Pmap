@@ -8,7 +8,7 @@
 
 ## Advantages
 - Pretty simple, No buckets, no tree rotations.
-- Customizable (cycles, mixers)
+- Customizable (cycles, mixers).
 - Can be used without pre generation in test environments.
 - The cost of usage can be seen beforehand (when testing for a sequence).
 
