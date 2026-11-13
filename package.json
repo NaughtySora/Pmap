@@ -1,0 +1,18 @@
+{
+  "name": "pmap",
+  "author": "NaughtySora <naughtysora@proton.me>",
+  "version": "0.0.1",
+  "license": "MIT",
+  "exports": "./main.js",
+  "description": "Statically generated permutation map",
+  "keywords": [
+    "map", "permutation"
+  ],
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "c8": "^9.1.0"
+  },
+  "scripts": {
+    "test": "c8 node --test"
+  }
+}
