@@ -6,7 +6,8 @@
   "exports": "./main.js",
   "description": "Statically generated permutation map",
   "keywords": [
-    "map", "permutation"
+    "map",
+    "permutation"
   ],
   "readmeFilename": "README.md",
   "devDependencies": {
@@ -14,5 +15,8 @@
   },
   "scripts": {
     "test": "c8 node --test"
+  },
+  "dependencies": {
+    "naughty-util": "^0.8.0"
   }
 }

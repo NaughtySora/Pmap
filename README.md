@@ -12,8 +12,10 @@
 - Can be used without pre generation in test environments.
 - The cost of usage can be seen beforehand (when testing for a sequence).
 
-## To be discovered
-- Performance
+## Performance
+#### JS
+- Rough testing showed that for 1000000 lookups js implemented Pmap only ~1/8 slower \
+against C++ implemented ecma Map.
 
 ## Notes
 I was researching permutation in both mathematics and programming in the context of
