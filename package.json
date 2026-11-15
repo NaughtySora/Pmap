@@ -14,7 +14,8 @@
     "c8": "^9.1.0"
   },
   "scripts": {
-    "test": "c8 node --test"
+    "test-js": "c8 node --test",
+    "test-c": "make -C ./lib/C > /dev/null && ./lib/C/Pmap && make -C ./lib/C clean > /dev/null"
   },
   "dependencies": {
     "naughty-util": "^0.8.0"
