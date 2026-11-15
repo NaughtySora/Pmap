@@ -1,7 +1,7 @@
 "use strict";
 
 const { misc } = require("naughty-util");
-const { Pmap } = require("../lib/Pmap");
+const { Pmap } = require("../lib/Pmap.js");
 
 const keys = [
   1, 6, 33, 80,
@@ -22,10 +22,10 @@ const lookup = Array.from({ length: 1e6 }, () => misc.random(keys.length - 1, -1
 //     values.push(jsMap.get(key));
 //   }
 //   const end = process.hrtime.bigint();
-//   console.log(values.length, end - start);
+//   console.log({ length: values.length, time: end - start });
 // }
 
-// nano ~ 64930498n
+// nano ~ 60274290n
 // {
 //   const pMap = new Pmap(keys, keys, 2).test();
 //   const start = process.hrtime.bigint();
@@ -37,5 +37,6 @@ const lookup = Array.from({ length: 1e6 }, () => misc.random(keys.length - 1, -1
 //   console.log(values.length, end - start);
 // }
 
-const diff = 1 - (57001349 / 64930498);
-console.log(diff, Math.round(1 / diff));
+const ratio = 60274290 / 57001349;
+const slowdown = (ratio - 1) * 100;
+console.log({ ratio, slowdown });

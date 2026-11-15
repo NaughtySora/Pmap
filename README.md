@@ -14,7 +14,7 @@
 
 ## Performance
 #### JS
-- Rough testing showed that for 1000000 lookups js implemented Pmap only ~1/8 slower \
+- Rough testing showed that for 1000000 lookups js implemented Pmap only ~6% slower \
 against C++ implemented js Map.
 I'm sure I can even find better mixer or implement map even better.
 
