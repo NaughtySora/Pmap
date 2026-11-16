@@ -1,10 +1,10 @@
 # Permutation Map
 
 ## Disadvantages
-- For "production" use sequence should be generate beforehand.
+- For "production" sequence should be generate beforehand.
 - Updating mapping requires to regenerate and place sequence manually.
 - Requires map to be static.
-- Large mapping will require an enormous amount of resources, sometimes even infinite.
+- Large mapping will require an enormous amount of resources to predict the mapping sequence.
 
 ## Advantages
 - Pretty simple, No buckets, no tree rotations.
